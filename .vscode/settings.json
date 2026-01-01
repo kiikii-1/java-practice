@@ -1,0 +1,39 @@
+{
+  // ===== Java 基本設定 =====
+  "java.jdt.ls.java.home": "C:\\Program Files\\Java",
+  "java.configuration.checkProjectSettingsExclusions": false,
+  "java.configuration.updateBuildConfiguration": "interactive",
+  "java.compile.nullAnalysis.mode": "automatic",
+  // ===== フォーマット =====
+  "editor.formatOnSave": true,
+  "editor.tabSize": 4,
+  "editor.insertSpaces": true,
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java",
+    "editor.formatOnSave": true
+  },
+  // ===== 見やすさ =====
+  "editor.renderWhitespace": "boundary",
+  "editor.renderControlCharacters": false,
+  "editor.minimap.enabled": false,
+  "editor.wordWrap": "off",
+  // ===== 補完・支援 =====
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": false
+  },
+  "editor.parameterHints.enabled": true,
+  "github.copilot.enable": {
+    "*": false
+  },
+  // ===== 保存時の安全設定 =====
+  "files.encoding": "utf8",
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+  // ===== Java 実行関連 =====
+  "java.debug.settings.onBuildFailureProceed": true,
+  "java.debug.settings.console": "integratedTerminal",
+  // ===== 不要なノイズ削減 =====
+  "java.errors.incompleteClasspath.severity": "ignore"
+}
