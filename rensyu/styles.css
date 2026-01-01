@@ -1,0 +1,29 @@
+/* styles.css */
+.calculator {
+    width: 200px;
+    margin: 50px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.calculator input[type="text"] {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.calculator .keys button {
+    width: 40px;
+    height: 40px;
+    margin: 2px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    background-color: #f0f0f0;
+}
+
+.calculator .keys button:hover {
+    background-color: #e0e0e0;
+}
