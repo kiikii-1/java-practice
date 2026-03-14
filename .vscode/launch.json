@@ -6,6 +6,90 @@
     "configurations": [
         {
             "type": "java",
+            "name": "InterfaceC",
+            "request": "launch",
+            "mainClass": "InterfaceC",
+            "projectName": "javaf_c9df922d"
+        },
+        {
+            "type": "java",
+            "name": "interfaceA",
+            "request": "launch",
+            "mainClass": "interfaceA",
+            "projectName": "javaf_c9df922d"
+        },
+        {
+            "type": "java",
+            "name": "MapList",
+            "request": "launch",
+            "mainClass": "MapList",
+            "projectName": "javaf_c9df922d"
+        },
+        {
+            "type": "java",
+            "name": "overrideB",
+            "request": "launch",
+            "mainClass": "overrideB",
+            "projectName": "javaf_c9df922d"
+        },
+        {
+            "type": "java",
+            "name": "overrideA",
+            "request": "launch",
+            "mainClass": "overrideA",
+            "projectName": "javaf_c9df922d"
+        },
+        {
+            "type": "java",
+            "name": "excepitonE",
+            "request": "launch",
+            "mainClass": "excepitonE",
+            "projectName": "javaf_c9df922d"
+        },
+        {
+            "type": "java",
+            "name": "exceptionC",
+            "request": "launch",
+            "mainClass": "exceptionC",
+            "projectName": "javaf_c9df922d"
+        },
+        {
+            "type": "java",
+            "name": "excepiton",
+            "request": "launch",
+            "mainClass": "excepiton",
+            "projectName": "javaf_c9df922d"
+        },
+        {
+            "type": "java",
+            "name": "joukenID",
+            "request": "launch",
+            "mainClass": "joukenID.joukenID",
+            "projectName": "javaf_c9df922d"
+        },
+        {
+            "type": "java",
+            "name": "Alist",
+            "request": "launch",
+            "mainClass": "Alist",
+            "projectName": "javaf_c9df922d"
+        },
+        {
+            "type": "java",
+            "name": "AList$Alist",
+            "request": "launch",
+            "mainClass": "AList$Alist",
+            "projectName": "javaf_c9df922d"
+        },
+        {
+            "type": "java",
+            "name": "kaiin",
+            "request": "launch",
+            "mainClass": "kaiin.kaiin",
+            "projectName": "javaf_c9df922d"
+        },
+        {
+            "type": "java",
             "name": "psytest",
             "request": "launch",
             "mainClass": "psytest",

@@ -3,7 +3,7 @@ import java.util.*;
 public class psytest {
     public static void main(String args[]) {
 
-        System.out.println("これはabcd診断");
+        System.out.println("abcd診断");
         System.out.println("質問を始めます");
 
         /*
@@ -15,10 +15,12 @@ public class psytest {
          */
         List<Question> questionlist = new QuestionList().getQuestionList();
 
+        /* 質問開始 */
         for (int i = 0; i < questionlist.size(); i++) {
             Question question = questionlist.get(i);
             System.out.println(question.getQuestionId() + ": " + question.getQuestionText());
 
         }
+        System.out.println("回答を送信する");
     }
 }

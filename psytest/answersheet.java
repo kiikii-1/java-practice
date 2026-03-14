@@ -8,7 +8,9 @@ public class answersheet {
      * private int questionAnswer;
      */
     private Map<Integer, Integer> answers = new HashMap<Integer, Integer>();
-    public void put(int questionId, int questionAnswer) {
+
+    /* IDと回答を保存するメソッド→MapにIdとanswerを入れる */
+    public void saveAnswer(int questionId, int questionAnswer) {
         answers.put(questionId, questionAnswer);
     }
 }

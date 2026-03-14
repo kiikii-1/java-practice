@@ -17,6 +17,11 @@ class QuestionList {
     /*
      * 具体的な質問を入れる
      * Object型のquestionData変数にデータを入れてる
+     * questionData[行番目のObjest配列][列番目のObject配列の中の配列]で取り出せる。
+     * 
+     * questionData[0][0] → 1
+     * questionData[0][1] → "質問"
+     * questionData[0][2] → ABCDdata.A
      */
     private static void createQuestion() {
         Object[][] questionData = {
@@ -78,7 +83,7 @@ public class Question {
         return questiontext;
     }
 
-    public ABCDdata getAbcdgata() {
+    public ABCDdata getAbcdData() {
         return abcdgata;
     }
 
